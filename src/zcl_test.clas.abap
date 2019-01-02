@@ -19,6 +19,6 @@ CLASS ZCL_TEST IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
-    out->write_text( text = `because your kiss is on my list` ).
+    out->write( data = `because your kiss is on my list \n when I turn out the light` ).
   ENDMETHOD.
 ENDCLASS.
