@@ -1,4 +1,4 @@
-class ZCL_TEST definition
+class ZCL_MONTREUX definition
   public
   final
   create public .
@@ -15,10 +15,10 @@ ENDCLASS.
 
 
 
-CLASS ZCL_TEST IMPLEMENTATION.
+CLASS ZCL_MONTREUX IMPLEMENTATION.
 
 
-  METHOD if_oo_adt_classrun~main.
-    out->write( data = `because your kiss is on my list \n when I turn out the light` ).
+  METHOD IF_OO_ADT_CLASSRUN~MAIN.
+    out->write( data = `we all came out to montreux` ).
   ENDMETHOD.
 ENDCLASS.
